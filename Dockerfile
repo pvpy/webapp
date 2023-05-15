@@ -1,6 +1,6 @@
 # Philippe
 FROM ubuntu:18.04
-LABEL maintainer=philippe.yard@bnf.fr
+LABEL maintainer=pvpy@free.fr
 RUN apt -y update
 RUN apt -y install nginx git
 EXPOSE 80
